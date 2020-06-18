@@ -1,1 +1,5 @@
 # Graph-Digitizer
+## Overview:
+The idea behind the project is obtain a python code to take input of a graph image and output the data present in the graph along with the suitable python code as well. As most of the research papers don't have the graph data attached along with them, this would be an useful tool to extract data from the plots. There are a couple of digitizers available in the market, this is an attempt to create my own digitizer. 
+## Method:
+Predominantly OpenCV and basic math libraries will be used to the complete set of operations. Deployment phase is not currently ideated upon. The idea is to take an image and scan for the square zone of the graph and then read the X-Ticks and Y-Ticks to know the range of the axes and then scan the graph zone and obtain the points and suitable map them to the X axis and Y-axis using the pixels and obtain the data value. This data will be loaded on to a dataframe and a scatter plot will be generated from the same. 
